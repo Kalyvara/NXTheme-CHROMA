@@ -18,7 +18,7 @@ Available color schemes:
 
 - **B&W** (default)
 - **Terra Edition:** earthy colors inspired by Monokai. Uses the default layout.
-- **Thalassa Edition:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
+- **Aqua Edition:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
 
 ## Attention to theme creators
 
@@ -34,7 +34,7 @@ Please note that Chroma is a very intricate theme as it massively rely on animat
 
 ## Credits
 
-- Atmosphere icon in B&W variants of Chroma by u/Quat0rz
 - Atmosphere icon in Chroma Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
 - Atmosphere icon in Chroma Thalassa Edition by [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
+- Atmosphere icon in all other variants by u/Quat0rz
 - [LayoutDocs](https://layoutdocs.themezer.net/) contributors
