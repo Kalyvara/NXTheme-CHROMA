@@ -2,7 +2,7 @@
 
 ## Chroma?
 
-Well, the default color scheme of this theme is B&W, but it also offers alternative color variants, so I think "Chroma" conveys well that idea. Also, I'm an unoriginal individual that come up with lame names for my projects.
+Well, the default color scheme of this theme is B&W (or so I decided it to be), but it also offers alternative color variants, so I think "Chroma" conveys well that idea. Also, I'm an unoriginal individual that come up with lame names for my projects.
 
 ## Features
 
