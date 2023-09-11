@@ -19,6 +19,7 @@ Available color schemes:
 - **B&W** (default)
 - **Terra Edition:** earthy colors inspired by Monokai. Uses the default layout.
 - **Aqua Edition:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
+- **Famicom Edition:** wine red and beige colors, inspired by the Famicom console
 
 ## Attention to theme creators
 
