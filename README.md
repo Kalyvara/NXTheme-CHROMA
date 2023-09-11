@@ -10,4 +10,4 @@ Please note that Chroma is a very intricate theme as it massively rely on animat
 
 - Atmosphere icon in B&W variants of Chroma by u/Quat0rz
 - Atmosphere icon in Chroma Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
-- [LayoutDocs](layoutdocs.themezer.net/) contributors
+- [LayoutDocs](https://layoutdocs.themezer.net/) contributors
