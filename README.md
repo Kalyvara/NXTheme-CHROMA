@@ -1,4 +1,4 @@
-# Chroma, a sleek B&W theme for Nintendo Switch
+# Chroma, a sleek theme for Nintendo Switch
 
 ## Chroma?
 
@@ -36,4 +36,5 @@ Please note that Chroma is a very intricate theme as it massively rely on animat
 
 - Atmosphere icon in B&W variants of Chroma by u/Quat0rz
 - Atmosphere icon in Chroma Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
+- Atmosphere icon in Chroma Thalassa Edition by [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
 - [LayoutDocs](https://layoutdocs.themezer.net/) contributors
