@@ -1,10 +1,8 @@
 # Chroma, a sleek B&W theme for Nintendo Switch
 
-This repository contains the theme's source code as well as its assets. For modding purposes, a wiki that explicits the "inner workings" of this theme *might* be published at some point.
+## Chroma?
 
-Please note that Chroma is a very intricate theme as it massively rely on animations and convenient re-use of pre-existing UI elements (which is often the case with my NXTheme releases). You will most likely have a hard time to tweak this theme without breaking something. Also, most colors are dynamically handled (through animations) so making color changes isn't as straightforward as editing hex values within the JSON files.
-
-**Excluding bug reports, I won't be taking extra theme requests.** If you want to implement additional color schemes, feel free to fork this repository.
+Well, the default color scheme of this theme is B&W, but it also offers alternative color variants, so I think "Chroma" conveys well that idea. Also, I'm an unoriginal individual that come up with lame names for my projects.
 
 ## Features
 
@@ -21,6 +19,14 @@ Available color schemes:
 - **B&W** (default)
 - **Terra Edition:** earthy colors inspired by Monokai. Uses the default layout.
 - **Thalassa Edition:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
+
+## Attention to theme creators
+
+This repository contains the theme's source code as well as its assets. For modding purposes, a wiki that explicits the "inner workings" of this theme *might* be published at some point.
+
+Please note that Chroma is a very intricate theme as it massively rely on animations and convenient re-use of pre-existing UI elements (which is often the case with my NXTheme releases). You will most likely have a hard time to tweak this theme without breaking something. Also, most colors are dynamically handled (through animations) so making color changes isn't as straightforward as editing hex values within the JSON files.
+
+**Excluding bug reports, I won't be taking extra theme requests.** If you want to implement additional color schemes, feel free to fork this repository.
 
 ## Known issues
 
