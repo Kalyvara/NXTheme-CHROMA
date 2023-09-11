@@ -27,11 +27,13 @@ This repository contains the theme's source code as well as its assets. For modd
 
 Please note that Chroma is a very intricate theme as it massively rely on animations and convenient re-use of pre-existing UI elements (which is often the case with my NXTheme releases). You will most likely have a hard time to tweak this theme without breaking something. Also, most colors are dynamically handled (through animations) so making color changes isn't as straightforward as editing hex values within the JSON files.
 
-**Excluding bug reports, I won't be taking extra theme requests.** If you want to implement additional color schemes, feel free to fork this repository.
+At any rate, this is my biggest NXTheme release yet (as of the time of writing), thus my next releases will likely be focused on Chroma. Contributors are *greatly* appreciated, feel free to fork this repository if you want to implement additional color schemes.
+
+**Important note: excluding bug reports, I won't be taking requests.**
 
 ## Known issues
 
-- in the sidebar layout, the games scrolling will behave weirdly if the sidebar is accessed in very specific ways. It doesn't affect the navigation that much and there's a chance you won't even notice. This issue actually arose in Unison R as well, and unfortunately I have no solution to prevent this behavior.
+- In the sidebar layout, the games scrolling will behave weirdly if the sidebar is accessed in very specific ways. It doesn't affect the navigation that much and there's a chance you won't even notice. This issue actually arose in Unison R as well, and unfortunately I have no solution to prevent this behavior.
 
 ## Credits
 
