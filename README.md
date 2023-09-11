@@ -8,18 +8,19 @@ Please note that Chroma is a very intricate theme as it massively rely on animat
 
 ## Features
 
-Chroma comes in **4 main variants**:
+Chroma comes in **5 main variants**:
 
 - **default:** rounded game cards. This layout leaves enough room to put a custom background image.
 - **default w/ sidebar for applet icons**
-- **1:1 regular:** big squared 1:1 icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
 - **compact:** rounded 1:1 icons. When a game is highlighted, its label overlaps the game's image.
+- **1:1 regular:** big squared 1:1 icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
+- **1:1 cards:** squared game cards
 
 Available color schemes:
 
 - **B&W** (default)
-- **Terra Edition:** earthy colors inspired by Monokai
-- **Thalassa Edition:** aquamarine and deep blue colors
+- **Terra Edition:** earthy colors inspired by Monokai. Uses the default layout.
+- **Thalassa Edition:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
 
 ## Known issues
 
