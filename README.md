@@ -41,4 +41,4 @@ Credits would be greatly appreciated if you're planning to publicly share your e
 - Atmosphere icon in Chroma Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
 - Atmosphere icon in Chroma Aqua Edition by [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
 - Atmosphere icon in all other variants by u/Quat0rz
-- [LayoutDocs](https://layoutdocs.themezer.net/) contributors
+- Special thanks to [LayoutDocs](https://layoutdocs.themezer.net/) contributors
