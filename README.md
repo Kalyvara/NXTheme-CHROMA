@@ -10,9 +10,9 @@ Contributors are always welcome, so feel free to fork this repository if you wan
 
 **Layout variants**
 
-- **default:** rounded game cards. This layout leaves enough room to put a custom background image.
-- **default w/ sidebar for applet icons**
-- **compact:** rounded 1:1 icons. When a game is highlighted, its label overlaps the game's image.
+- **Default:** rounded game cards. This layout leaves enough room to put a custom background image.
+- **Default w/ sidebar for applet icons**
+- **Compact:** rounded 1:1 icons. When a game is highlighted, its label overlaps the game's image.
 - **1:1 regular:** big squared 1:1 icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
 - **1:1 cards:** squared game cards
 
