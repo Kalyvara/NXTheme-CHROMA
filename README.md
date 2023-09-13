@@ -1,8 +1,8 @@
-# Chroma, a sleek theme for Nintendo Switch
+# Chroma, sleek themes for Nintendo Switch
 
-Chroma is a NXTheme project that aims to (hopefully) bring sleek and responsive designs to your Switch interface. It's basically a set of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs (notice the plural).
+Chroma is a NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a set of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider it anywhere near perfect, great attention has still been given to color consistency and details.
 
-It comes in **5 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
+As of now, it comes in **5 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
 
 Contributors are always welcome, so feel free to fork this repository if you want to implement additional color schemes. Excluding bug reports, I won't be taking any requests.
 
@@ -39,10 +39,17 @@ Now, please note that Chroma involves very intricate layouts as they massively r
 
 - In the sidebar layout, the games scrolling will behave weirdly if the sidebar is accessed through some particular ways. It doesn't affect the navigation that much and there's a chance you won't even notice. This issue actually arose in Unison R as well, and unfortunately I have no solution to prevent this behavior.
 
+## Changelog
+
+### v1.0
+
+Initial release
+
 ## Credits
 
 - Atmosphere icon in Chroma Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
 - Atmosphere icon in Chroma Aqua Edition by [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
+- Atmosphere icon in Chroma Murasaki Edition by [Cuputo](https://thenounproject.com/icon/book-4146408/)
 - Atmosphere icon in all other variants by u/Quat0rz
 - Switch controller SVG in Neo Famicom's lockscreen by [Chad Remsing](https://thenounproject.com/icon/switch-charging-controller-930118/)
 - Special thanks to [LayoutDocs](https://layoutdocs.themezer.net/) contributors
