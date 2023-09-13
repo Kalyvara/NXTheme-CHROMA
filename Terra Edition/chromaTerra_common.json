@@ -928,42 +928,66 @@
                         {
                             "PropName": "S_DropShadowSize",
                             "PropValues": [
-                                "40"
+                                "0"
                             ],
                             "type": 2
                         },
                         {
+                            "PropName": "S_DropShadowColor",
+                            "PropValues": [
+                              "0",
+                              "0",
+                              "0",
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowDistance",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowVolume",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                        {
                             "PropName": "S_RoundRadius",
                             "PropValues": [
-                                "28"
+                                "0"
                             ],
                             "type": 2
                         },
                         {
                             "PropName": "C_B",
                             "PropValues": [
-                                "9",
-                                "1",
-                                "4",
-                                "2"
+                                "0",
+                                "0",
+                                "0",
+                                "0"
                             ],
                             "type": 1
                         },
                         {
                             "PropName": "C_W",
                             "PropValues": [
-                                "9",
-                                "1",
-                                "4",
-                                "2"
+                                "0",
+                                "0",
+                                "0",
+                                "0"
                             ],
                             "type": 1
                         }
                     ],
-                    "ColorTL": "FF0a0a0a",
-                    "ColorTR": "FF0a0a0a",
-                    "ColorBL": "FF0a0a0a",
-                    "ColorBR": "FF0a0a0a"
+                    "ColorTL": "FF111015",
+                    "ColorTR": "FF111015",
+                    "ColorBL": "FF111015",
+                    "ColorBR": "FF111015"
                 }
             ]
         },
@@ -1154,7 +1178,31 @@
                                 "0"
                             ],
                             "type": 2
-                        }
+                        },
+                        {
+                            "PropName": "S_DropShadowColor",
+                            "PropValues": [
+                              "0",
+                              "0",
+                              "0",
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowDistance",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowVolume",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          }
                     ],
                     "ColorTL": "FF111015",
                     "ColorTR": "FF111015",
