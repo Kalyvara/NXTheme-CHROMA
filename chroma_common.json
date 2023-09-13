@@ -1,5 +1,5 @@
 {
-    "PatchName": "Chroma (common)",
+    "PatchName": "Chroma, Super Famicon Ed. (common)",
     "AuthorName": "Kalyvara",
     "ID": "custom",
     "Files": [
@@ -176,7 +176,7 @@
                 {
                     "PaneName": "N_Root",
                     "Position": {
-                        "Y": -1
+                        "Y": -1.0
                     },
                     "Scale": {
                         "X": 0.9,
@@ -212,8 +212,8 @@
                 {
                     "PaneName": "T_Key",
                     "Scale": {
-                        "X": 1,
-                        "Y": 1
+                        "X": 1.0,
+                        "Y": 1.0
                     },
                     "UsdPatches": [
                         {
@@ -231,8 +231,8 @@
                 {
                     "PaneName": "T_00",
                     "Scale": {
-                        "X": 1,
-                        "Y": 1
+                        "X": 1.0,
+                        "Y": 1.0
                     },
                     "UsdPatches": [
                         {
@@ -254,8 +254,8 @@
                 {
                     "PaneName": "P_Key",
                     "Scale": {
-                        "X": 1,
-                        "Y": 1
+                        "X": 1.0,
+                        "Y": 1.0
                     },
                     "UsdPatches": [
                         {
@@ -277,8 +277,8 @@
                 {
                     "PaneName": "T_01",
                     "Scale": {
-                        "X": 1,
-                        "Y": 1
+                        "X": 1.0,
+                        "Y": 1.0
                     },
                     "UsdPatches": [
                         {
@@ -592,20 +592,20 @@
                         {
                             "PropName": "S_DropShadowColor",
                             "PropValues": [
-                              "36",
-                              "36",
-                              "36",
-                              "36"
+                                "36",
+                                "36",
+                                "36",
+                                "36"
                             ],
                             "type": 2
-                          },
-                          {
+                        },
+                        {
                             "PropName": "S_DropShadowColorSelect",
                             "PropValues": [
-                              "36"
+                                "36"
                             ],
                             "type": 1
-                          },
+                        },
                         {
                             "PropName": "S_DropShadowSize",
                             "PropValues": [
@@ -630,20 +630,20 @@
                         {
                             "PropName": "C_B",
                             "PropValues": [
-                                "9",
-                                "1",
-                                "4",
-                                "2"
+                                "0",
+                                "0",
+                                "0",
+                                "0"
                             ],
                             "type": 1
                         },
                         {
                             "PropName": "C_W",
                             "PropValues": [
-                                "9",
-                                "1",
-                                "4",
-                                "2"
+                                "0",
+                                "0",
+                                "0",
+                                "0"
                             ],
                             "type": 1
                         }
@@ -737,21 +737,6 @@
                     "ColorBR": "FFffffff"
                 }
             ],
-            "Materials": [
-                {
-                    "MaterialName": "T_00",
-                    "BackgroundColor": "FFffffff"
-                },
-                {
-                    "MaterialName": "P_BtnDecideKey",
-                    "BackgroundColor": "FFffffff"
-                },
-                {
-                    "MaterialName": "P_BtnTouch",
-                    "BackgroundColor": "FFffffff"
-                }
-            ],
-            
             "AddGroups": [
                 {
                     "GroupName": "Capybara_G_BtnKey",
@@ -963,14 +948,38 @@
                         {
                             "PropName": "S_DropShadowSize",
                             "PropValues": [
-                                "40"
+                                "0"
                             ],
                             "type": 2
                         },
                         {
+                            "PropName": "S_DropShadowColor",
+                            "PropValues": [
+                              "0",
+                              "0",
+                              "0",
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowDistance",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowVolume",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                        {
                             "PropName": "S_RoundRadius",
                             "PropValues": [
-                                "28"
+                                "0"
                             ],
                             "type": 2
                         },
@@ -1008,12 +1017,12 @@
                 {
                     "PaneName": "P_Soft",
                     "Position": {
-                        "X": -312,
-                        "Y": -47
+                        "X": -312.0,
+                        "Y": -47.0
                     },
                     "Size": {
-                        "X": 33,
-                        "Y": 50
+                        "X": 33.0,
+                        "Y": 50.0
                     }
                 },
                 {
@@ -1189,7 +1198,31 @@
                                 "0"
                             ],
                             "type": 2
-                        }
+                        },
+                        {
+                            "PropName": "S_DropShadowColor",
+                            "PropValues": [
+                              "0",
+                              "0",
+                              "0",
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowDistance",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          },
+                          {
+                            "PropName": "S_DropShadowVolume",
+                            "PropValues": [
+                              "0"
+                            ],
+                            "type": 2
+                          }
                     ],
                     "ColorTL": "FF0a0a0a",
                     "ColorTR": "FF0a0a0a",
