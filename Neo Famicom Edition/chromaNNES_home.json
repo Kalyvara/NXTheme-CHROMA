@@ -232,7 +232,7 @@
                         {
                             "PropName": "S_RoundRadius",
                             "PropValues": [
-                                "0"
+                                "28"
                             ],
                             "type": 2
                         },
@@ -264,10 +264,10 @@
                             "type": 1
                         }
                     ],
-                    "ColorTL": "00030303",
-                    "ColorTR": "00030303",
-                    "ColorBL": "00030303",
-                    "ColorBR": "00030303"
+                    "ColorTL": "FF6d6d6d",
+                    "ColorTR": "FF6d6d6d",
+                    "ColorBL": "FF6d6d6d",
+                    "ColorBR": "FF6d6d6d"
                 },
                 {
                     "PaneName": "P_BtnL",
@@ -307,10 +307,10 @@
                             "type": 1
                         }
                     ],
-                    "ColorTL": "FF83c4d4",
-                    "ColorTR": "FF83c4d4",
-                    "ColorBL": "FF83c4d4",
-                    "ColorBR": "FF83c4d4"
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
                 },
                 {
                     "PaneName": "P_BtnR",
@@ -350,10 +350,182 @@
                             "type": 1
                         }
                     ],
-                    "ColorTL": "FF83c4d4",
-                    "ColorTR": "FF83c4d4",
-                    "ColorBL": "FF83c4d4",
-                    "ColorBR": "FF83c4d4"
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
+                },
+                {
+                    "PaneName": "P_CtrlJointVL",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
+                },
+                {
+                    "PaneName": "P_CtrlJointVLGhost",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
+                },
+                {
+                    "PaneName": "P_CtrlJointVR",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
+                },
+                {
+                    "PaneName": "P_CtrlJointVRGhost",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
                 }
             ]
         },
