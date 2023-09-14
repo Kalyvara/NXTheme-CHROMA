@@ -19,7 +19,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - **Compact rounded:** rounded icons. When a game is highlighted, its label overlaps the game's image.
 - **Regular squared:** big squared icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
 - **Regular rounded:** same as right above but icons are rounded.
-- **Cards:** similar to the default layout, but the games row is symmetrically aligned with the highlighted game, and icons are squared.
+- **Cards:** similar to the default layout, but the games row is symmetrically aligned with the highlighted card, and icons are squared.
 
 **Color schemes**
 
@@ -31,6 +31,15 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - **Red Wine:** scarlet tones with some gradients. Uses the regular rounded layout.
 
 - (only home screen & player select) **Famicom:** wine red and beige colors, inspired by the Famicom console. Uses the default w/ sidebar layout.
+
+## Download on Themezer
+
+- [CHROMA default (B&W)](https://themezer.net/packs/CHROMA-682)
+- [CHROMA Neo Famicom Ed.](https://themezer.net/packs/CHROMA-Neo-Famicom-Edition-683)
+- [CHROMA Terra Ed.](https://themezer.net/packs/CHROMA-Terra-Edition-684)
+- [CHROMA Aqua Ed.](https://themezer.net/packs/CHROMA-Aqua-Edition-685)
+- [CHROMA Murasaki Ed.](https://themezer.net/packs/CHROMA-Murasaki-Edition-686)
+- [CHROMA Red Wine Ed.](https://themezer.net/packs/CHROMA-Red-Wine-Edition-687)
 
 ## Quick showcase
 
