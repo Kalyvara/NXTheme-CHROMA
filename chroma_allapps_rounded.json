@@ -965,7 +965,7 @@
                         {
                             "PropName": "S_RoundRadius",
                             "PropValues": [
-                                "6"
+                                "24"
                             ],
                             "type": 2
                         },
