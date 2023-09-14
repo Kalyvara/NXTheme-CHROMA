@@ -6,9 +6,9 @@ As of now, it comes in **6 layout variants for the home screen** (more specifica
 
 Contributors are always welcome, so feel free to fork this repository if you want to implement additional color schemes. Excluding bug reports, I won't be taking any requests.
 
-## Features
-
 **Important: set your console to dark mode before using Chroma** (System Settings > Themes > Basic Black)
+
+## Features
 
 **Layout variants (base layouts)**
 
@@ -34,7 +34,11 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 
 ## Quick showcase
 
-TBA
+![Preview 1](./screenshots/preview1.png)
+
+![Preview 1](./screenshots/preview2.png)
+
+![Preview 1](./screenshots/preview3.png)
 
 ## Theme editing
 
