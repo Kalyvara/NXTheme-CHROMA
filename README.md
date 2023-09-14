@@ -1,8 +1,8 @@
 # Chroma, sleek themes for Nintendo Switch
 
-Chroma is a NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a set of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider it anywhere near perfect, great attention has still been given to color consistency and details.
+Chroma is a NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a set of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
 
-As of now, it comes in **5 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
+As of now, it comes in **6 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
 
 Contributors are always welcome, so feel free to fork this repository if you want to implement additional color schemes. Excluding bug reports, I won't be taking any requests.
 
@@ -10,22 +10,31 @@ Contributors are always welcome, so feel free to fork this repository if you wan
 
 **Important: set your console to dark mode before using Chroma** (System Settings > Themes > Basic Black)
 
-**Layout variants**
+**Layout variants (base layouts)**
 
-- **Default:** rounded game cards. This layout leaves enough room to put a custom background image.
+Layouts listed here use 1:1 game icons. I don't plan on implementing vertical icons.
+
+- **Default:** slightly inspired by the PS5 layout, icons are rounded and the highlighted game appears as a card. This layout leaves enough room to put a custom background image.
 - **Default w/ sidebar for applet icons**
-- **Compact:** rounded 1:1 icons. When a game is highlighted, its label overlaps the game's image.
-- **1:1 regular:** big squared 1:1 icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
-- **1:1 cards:** squared game cards
+- **Compact rounded:** rounded icons. When a game is highlighted, its label overlaps the game's image.
+- **Regular squared:** big squared icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
+- **Regular rounded:** same as right above but icons are rounded.
+- **Cards:** similar to the default layout, but the games row is symmetrically aligned with the highlighted game, and icons are squared.
 
 **Color schemes**
 
-- **B&W** (default)
+- **B&W** (base color scheme)
 - **Terra:** earthy colors inspired by Monokai. Uses the default layout.
 - **Aqua:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
 - **Murasaki:** light purple with hints of beige and pale orange. Uses the default layout.
-- **Neo Famicom:** gray tones and colored buttons inspired by the SNES console. Uses the 1:1 cards layout.
+- **Neo Famicom:** gray tones and colored buttons inspired by the SNES console. Uses the cards layout.
+- **Red Wine:** scarlet tones with some gradients. Uses the regular rounded layout.
+
 - (only home screen & player select) **Famicom:** wine red and beige colors, inspired by the Famicom console. Uses the default w/ sidebar layout.
+
+## Quick showcase
+
+TBA
 
 ## Theme editing
 
@@ -41,9 +50,11 @@ Now, please note that Chroma involves very intricate layouts as they massively r
 
 ## Changelog
 
-### v1.0
+Except for v1.0 which is a shared release, the versioning is independent for each color scheme.
 
-Initial release
+### v1.0 (shared release)
+
+Initial release (B&W, Aqua, Terra, Neo Famicom, Murasaki, Red Wine)
 
 ## Credits
 
