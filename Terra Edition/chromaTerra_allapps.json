@@ -1,5 +1,5 @@
 {
-    "PatchName": "Chroma, Terra Ed. (all apps)",
+    "PatchName": "Chroma, Terra Ed. (all apps) (rounded)",
     "AuthorName": "Kalyvara",
     "TargetName": "Flaunch.szs",
     "ID": "custom",
@@ -965,7 +965,7 @@
                         {
                             "PropName": "S_RoundRadius",
                             "PropValues": [
-                                "6"
+                                "24"
                             ],
                             "type": 2
                         },
