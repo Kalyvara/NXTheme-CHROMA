@@ -2,7 +2,7 @@
 
 Chroma is a NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a collection of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
 
-As of now, it comes in **6 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
+As of now, it comes in **7 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
 
 Contributors are always welcome, so feel free to fork this repository if you want to implement additional color schemes. Excluding bug reports, I won't be taking any requests.
 
@@ -15,6 +15,7 @@ Contributors are always welcome, so feel free to fork this repository if you wan
 Layouts listed here use 1:1 game icons. I don't plan on implementing vertical icons.
 
 - **Default:** slightly inspired by the PS5 layout, icons are rounded and the highlighted game appears as a card. This layout leaves enough room to put a custom background image.
+- **Default large icons:** same as right above with larger icons.
 - **Default w/ sidebar for applet icons**
 - **Compact rounded:** rounded icons. When a game is highlighted, its label overlaps the game's image.
 - **Regular squared:** big squared icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
@@ -67,7 +68,7 @@ Except for v1.0 which is a shared release, the versioning is independent for eac
 
 ### v1.0 (shared release)
 
-Initial release (B&W, Aqua, Terra, Neo Famicom, Murasaki, Red Wine)
+Initial release (B&W, Aqua, Terra, Neo Famicom, Murasaki, Red Wine, Terra Mint)
 
 ## Credits
 
