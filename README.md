@@ -25,12 +25,12 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 **Color schemes**
 
 - **B&W** (base color scheme)
-- **Terra:** earthy colors inspired by Monokai. Uses the default layout.
+- **Terra:** earthy colors inspired by Monokai: light green, brown and hints of pink.
 - **Terra Mint:** less vibrant tones than Terra with grayish brown, mint green and hints of beige.
-- **Aqua:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
-- **Murasaki:** light purple with hints of beige and pale orange. Uses the default layout.
-- **Neo Famicom:** gray tones and colored buttons inspired by the SNES console. Uses the cards layout.
-- **Red Wine:** scarlet tones with some gradients. Uses the regular rounded layout.
+- **Aqua:** aquamarine and deep blue colors.
+- **Murasaki:** light purple with hints of beige and pale orange.
+- **Neo Famicom:** gray tones and colored buttons inspired by the SNES console.
+- **Red Wine:** scarlet tones with some gradients.
 
 - (only home screen & player select) **Famicom:** wine red and beige colors, inspired by the Famicom console. Uses the default w/ sidebar layout.
 
