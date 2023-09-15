@@ -26,6 +26,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 
 - **B&W** (base color scheme)
 - **Terra:** earthy colors inspired by Monokai. Uses the default layout.
+- **Terra Mint:** less vibrant tones than Terra with grayish brown, mint green and hints of beige.
 - **Aqua:** aquamarine and deep blue colors. Uses the default w/ sidebar layout.
 - **Murasaki:** light purple with hints of beige and pale orange. Uses the default layout.
 - **Neo Famicom:** gray tones and colored buttons inspired by the SNES console. Uses the cards layout.
@@ -38,6 +39,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - [CHROMA default (B&W)](https://themezer.net/packs/CHROMA-682)
 - [CHROMA Neo Famicom Ed.](https://themezer.net/packs/CHROMA-Neo-Famicom-Edition-683)
 - [CHROMA Terra Ed.](https://themezer.net/packs/CHROMA-Terra-Edition-684)
+- [CHROMA Terra Mint Ed.](https://themezer.net/packs/CHROMA-Terra-Mint-Edition-689)
 - [CHROMA Aqua Ed.](https://themezer.net/packs/CHROMA-Aqua-Edition-685)
 - [CHROMA Murasaki Ed.](https://themezer.net/packs/CHROMA-Murasaki-Edition-686)
 - [CHROMA Red Wine Ed.](https://themezer.net/packs/CHROMA-Red-Wine-Edition-687)
