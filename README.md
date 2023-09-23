@@ -2,7 +2,7 @@
 
 CHROMA is an NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a collection of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
 
-As of now, it comes in **7 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
+As of now, it comes in **8 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
 
 Contributors are always welcome, so feel free to fork this repository if you want to implement additional color schemes. Excluding bug reports, I won't be taking any requests.
 
