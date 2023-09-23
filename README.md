@@ -1,6 +1,6 @@
 # CHROMA, sleek themes for Nintendo Switch
 
-CHROMA is a NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a collection of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
+CHROMA is an NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a collection of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
 
 As of now, it comes in **7 layout variants for the home screen** (more specifically the games row), and it's pre-bundled with a few color schemes.
 
@@ -21,6 +21,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - **Regular squared:** big squared icons. The focus animation when a game is highlighted is similar to what can be seen in SteamOS' Big Picture Mode.
 - **Regular rounded:** same as right above but icons are rounded.
 - **Cards:** similar to the default layout, but the games row is symmetrically aligned with the highlighted card, and icons are squared.
+- **Cards alt rounded:** another take to the cards layout, rounded elements and the game's label is below the game's icon.
 
 **Color schemes**
 
@@ -28,6 +29,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - **Terra:** earthy colors inspired by Monokai: light green, brown and hints of pink.
 - **Terra Mint:** less vibrant tones than Terra with grayish brown, mint green and hints of beige.
 - **Aqua:** aquamarine and deep blue colors.
+  - **Aqua Breeze:** alt version with gradients and improves overall color consistency.
 - **Murasaki:** light purple with hints of beige and pale orange.
 - **Neo Famicom:** gray tones and colored buttons inspired by the SNES console.
 - **Red Wine:** scarlet tones with some gradients.
@@ -41,6 +43,7 @@ Layouts listed here use 1:1 game icons. I don't plan on implementing vertical ic
 - [CHROMA Terra Ed.](https://themezer.net/packs/CHROMA-Terra-Edition-684)
 - [CHROMA Terra Mint Ed.](https://themezer.net/packs/CHROMA-Terra-Mint-Edition-689)
 - [CHROMA Aqua Ed.](https://themezer.net/packs/CHROMA-Aqua-Edition-685)
+  - [CHROMA Aqua Breeze Ed.](https://themezer.net/packs/CHROMA-Aqua-Breeze-Edition-68e) (+ gradients & some fine-tuning)
 - [CHROMA Murasaki Ed.](https://themezer.net/packs/CHROMA-Murasaki-Edition-686)
 - [CHROMA Red Wine Ed.](https://themezer.net/packs/CHROMA-Red-Wine-Edition-687)
 
@@ -66,11 +69,23 @@ Now, please note that CHROMA involves very intricate layouts as they massively r
 
 ## Changelog
 
-Except for v1.0 which is a shared release, the versioning is independent for each color scheme.
+The versioning is independent for each applet. Sorry for the mess.
 
-### v1.0 (shared release)
+### Home screen
 
-Initial release (B&W, Aqua, Terra, Neo Famicom, Murasaki, Red Wine, Terra Mint)
+#### v1.1
+
+- **Fixed Atmosphere crashing when uninstalling a game**
+- **+2 layouts: default large icons, cards alt rounded**
+
+### Settings
+
+#### v1.1
+
+- **New generalized layout**
+  - styled "Manage Software" tab
+
+### v1.0 - initial/shared release (all applets)
 
 ## Credits
 
