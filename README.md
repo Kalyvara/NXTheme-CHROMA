@@ -1,3 +1,11 @@
+*Nov 14th 2024*
+
+**Maintaining this project proves to be an utter chaos due to its poor and convoluted structure, so I decided to drop support altogether and archive this repository. Don't expect any further updates. All themes should be still working as of FW 19.0.0.**
+
+However, I'm considering putting together a theme creation tool revolving around CHROMA's layouts that would enable much more modularity and customization on the user's end. Not only would it make things way easier to maintain by not relying on individual themes for every color scheme, it would also allow for proper source control. No ETA whatsoever, but stay tuned.
+
+---
+
 # CHROMA, sleek themes for Nintendo Switch
 
 CHROMA is an NXTheme project that aims to (hopefully) bring sleek designs to your Switch interface, providing a collection of themes that share similar UI design criteria. The intent here was to turn one year's worth of accumulated knowledge in Switch theming into full-fledged and coherent theme packs. While I don't consider the end result anywhere near perfect, great attention has still been given to color consistency and details.
