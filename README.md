@@ -82,7 +82,7 @@ Authors of icons for the album applet being showcased on the screenshots are as 
 - CHROMA Murasaki Edition: [Cuputo](https://thenounproject.com/icon/book-4146408/)
 - All other variants of CHROMA: redditor u/Quat0rz
 
-Additionnally,
+Additionally,
 
 - Switch controller SVG in CHROMA Neo Famicom Ed's lock screen: [Chad Remsing](https://thenounproject.com/icon/switch-charging-controller-930118/)
   
