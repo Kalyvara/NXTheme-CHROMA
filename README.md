@@ -1,8 +1,8 @@
-*Nov 14th 2024*
+*June 9th 2025*
 
-**Maintaining this project proves to be an utter chaos due to its poor and convoluted structure, so I decided to drop support altogether and archive this repository. Don't expect any further updates. All themes should be still working as of FW 19.0.0.**
+This project is no longer maintained. Its natural continuation should be a web app that brings convenience and modularity, currently being developed and whose release window is yet to be determined.
 
-However, I'm considering putting together a theme creation tool revolving around CHROMA's layouts that would enable much more modularity and customization on the user's end. Not only would it make things way easier to maintain by not relying on individual themes for every color scheme, it would also allow for proper source control. No ETA whatsoever, but stay tuned.
+Note that all home screen themes will crash on 20.x. Testing for other menus has not been done.
 
 ---
 
@@ -69,37 +69,21 @@ This repository contains the themes' source code as well as their assets. Before
 
 Now, please note that CHROMA involves very intricate layouts as they massively rely on animations and convenient re-use of pre-existing UI elements (which is often the case with my NXTheme releases). You will most likely have a hard time to tweak those themes without breaking something. Also, most colors are dynamically handled (through animations) so making color changes isn't as straightforward as editing hex values within the JSON files. In fact, you will absolutely need Layout Editor for most of the UI.
 
-**Credits would be greatly appreciated if you're planning to publicly share your edited theme.**
-
 ## Known issues
 
 - In the sidebar layout, the games scrolling will behave weirdly if the sidebar is accessed through some particular ways. It doesn't affect the navigation that much and there's a chance you won't even notice. This issue actually arose in Unison R as well, and unfortunately I have no solution to prevent this behavior.
 
-## Changelog
-
-The versioning is independent for each applet. Sorry for the mess.
-
-### Home screen
-
-#### v1.1
-
-- **Fixed Atmosphere crashing when uninstalling a game**
-- **+2 layouts: default large icons, cards alt rounded**
-
-### Settings
-
-#### v1.1
-
-- **New generalized layout**
-  - styled "Manage Software" tab
-
-### v1.0 - initial/shared release (all applets)
-
 ## Credits
 
-- Atmosphere icon in CHROMA Terra Edition by [dh park](https://thenounproject.com/icon/leaf-5958752/)
-- Atmosphere icon in CHROMA Aqua Edition by [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
-- Atmosphere icon in CHROMA Murasaki Edition by [Cuputo](https://thenounproject.com/icon/book-4146408/)
-- Atmosphere icon in all other variants by u/Quat0rz
-- Switch controller SVG in Neo Famicom's lockscreen by [Chad Remsing](https://thenounproject.com/icon/switch-charging-controller-930118/)
-- Special thanks to [LayoutDocs](https://layoutdocs.themezer.net/) contributors
+Authors of icons for the album applet being showcased on the screenshots are as follows:
+
+- CHROMA Terra Edition: [dh park](https://thenounproject.com/icon/leaf-5958752/)
+- CHROMA Aqua Edition: [Viktor Vorobyev](https://thenounproject.com/icon/water-drop-504908/)
+- CHROMA Murasaki Edition: [Cuputo](https://thenounproject.com/icon/book-4146408/)
+- All other variants of CHROMA: redditor u/Quat0rz
+
+Additionnally,
+
+- Switch controller SVG in CHROMA Neo Famicom Ed's lock screen: [Chad Remsing](https://thenounproject.com/icon/switch-charging-controller-930118/)
+  
+Special thanks to [LayoutDocs](https://layoutdocs.themezer.net/) contributors.
