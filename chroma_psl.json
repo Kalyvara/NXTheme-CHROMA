@@ -1,0 +1,435 @@
+{
+    "PatchName": "Chroma (player select)",
+    "AuthorName": "Kalyvara",
+    "TargetName": "Psl.szs",
+    "ID": "custom",
+    "Files": [
+        {
+            "FileName": "blyt/DBtmHeaderNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": -22,
+                        "Y": 140
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Visible": true
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Bg",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Cnt",
+                    "Position": {}
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslBtnCardPlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BgName",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF0f0f0f",
+                    "ColorTR": "FF0f0f0f",
+                    "ColorBL": "FF0f0f0f",
+                    "ColorBR": "FF0f0f0f"
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "ColorTL": "0",
+                    "ColorTR": "0",
+                    "ColorBL": "0",
+                    "ColorBR": "0"
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "ColorTL": "0",
+                    "ColorTR": "0",
+                    "ColorBL": "0",
+                    "ColorBR": "0"
+                },
+                {
+                    "PaneName": "P_InnerCursor",
+                    "Visible": false,
+                    "ColorTL": "0",
+                    "ColorTR": "0",
+                    "ColorBL": "0",
+                    "ColorBR": "0"
+                },
+                {
+                    "PaneName": "N_BtnFocusKey",
+                    "Scale": {
+                        "X": 0.93,
+                        "Y": 0.93
+                    }
+                },
+                {
+                    "PaneName": "P_PlayerImage",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnCardBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "0",
+                    "ColorTR": "0",
+                    "ColorBL": "0",
+                    "ColorBR": "0"
+                },
+                {
+                    "PaneName": "T_PlayerName",
+                    "UsdPatches": [
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff",
+                    "ColorBR": "FFffffff"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "T_Main",
+                    "ForegroundColor": "FF008000",
+                    "BackgroundColor": "FFC8C8C8"
+                }
+            ],
+            "AddGroups": [
+                {
+                    "GroupName": "Capybara_G_BtnKey",
+                    "Panes": [
+                        "N_BtnFocusKey",
+                        "P_BtnCardBase",
+                        "P_BgName",
+                        "N_Root",
+                        "T_PlayerName"
+                    ]
+                },
+                {
+                    "GroupName": "Capybara_G_UnBtnKey",
+                    "Panes": [
+                        "N_BtnFocusKey",
+                        "P_BtnCardBase",
+                        "P_BgName",
+                        "N_Root",
+                        "T_PlayerName"
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "4.4"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "30"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowColorSelect",
+                            "PropValues": [
+                                "36"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "4.4"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFffffff",
+                    "ColorTR": "FFffffff",
+                    "ColorBL": "FFffffff"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "ForegroundColor": "00cccccc",
+                    "BackgroundColor": "FFcccccc"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "ForegroundColor": "00cccccc",
+                    "BackgroundColor": "FFcccccc"
+                }
+            ]
+        }
+    ],
+    "Anims": [
+        {
+            "FileName": "anim/PslBtnCardPlayer_FocusKey.bflan",
+            "AnimJson": "{ \"LittleEndian\": true, \"Version\": 150994944, \"pat1\": { \"AnimationOrder\": 0, \"Name\": \"FocusKey\", \"ChildBinding\": 0, \"Groups\": [ \"Capybara_G_BtnKey\" ], \"Unk_StartOfFile\": 0, \"Unk_EndOfFile\": 0, \"Unk_EndOfHeader\": \"AAEAAAAAAA==\" }, \"pai1\": { \"FrameSize\": 1000, \"Flags\": 0, \"Textures\": [], \"Entries\": [ { \"Name\": \"N_BtnFocusKey\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 0.0, \"Blend\": 0.0 }, { \"Frame\": 1.0, \"Value\": 0.0, \"Blend\": 0.0 }, { \"Frame\": 1.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"P_BtnCardBase\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": -255.0 }, { \"Frame\": 1.0, \"Value\": 0.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"P_BgName\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 0, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 1, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 2, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 4, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 5, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 8, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 9, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 10, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 12, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 13, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 14, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"N_Root\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLPA\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 1.0, \"Blend\": 0.0 }, { \"Frame\": 6.0, \"Value\": 1.1, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 7, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 1.0, \"Blend\": 0.0 }, { \"Frame\": 6.0, \"Value\": 1.1, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"T_PlayerName\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 0, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 1, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 2, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 4, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 5, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 8, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 9, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 10, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 12, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 13, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 14, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" } ] } }"
+        },
+        {
+            "FileName": "anim/PslBtnCardPlayer_UnFocusKey.bflan",
+            "AnimJson": "{ \"LittleEndian\": true, \"Version\": 150994944, \"pat1\": { \"AnimationOrder\": 2, \"Name\": \"UnFocusKey\", \"ChildBinding\": 0, \"Groups\": [ \"Capybara_G_UnBtnKey\" ], \"Unk_StartOfFile\": 0, \"Unk_EndOfFile\": 0, \"Unk_EndOfHeader\": \"ADUAAAAAAA==\" }, \"pai1\": { \"FrameSize\": 1000, \"Flags\": 0, \"Textures\": [], \"Entries\": [ { \"Name\": \"N_BtnFocusKey\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": -85.0 }, { \"Frame\": 3.0, \"Value\": 0.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"P_BtnCardBase\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 0.0, \"Blend\": 127.5 }, { \"Frame\": 2.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"P_BgName\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 0, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 1, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 2, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 4, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 5, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 8, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 9, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 10, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 12, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 13, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 14, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 200.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"N_Root\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLPA\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 1.1, \"Blend\": 0.0 }, { \"Frame\": 6.0, \"Value\": 1.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 7, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 1.1, \"Blend\": 0.0 }, { \"Frame\": 6.0, \"Value\": 1.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" }, { \"Name\": \"T_PlayerName\", \"Target\": 0, \"Tags\": [ { \"Unknown\": 0, \"TagType\": \"FLVC\", \"Entries\": [ { \"Index\": 0, \"AnimationTarget\": 16, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 0, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 1, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 2, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 4, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 5, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 6, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 8, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 9, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 10, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 12, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 13, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" }, { \"Index\": 0, \"AnimationTarget\": 14, \"DataType\": 2, \"KeyFrames\": [ { \"Frame\": 0.0, \"Value\": 15.0, \"Blend\": 0.0 }, { \"Frame\": 0.0, \"Value\": 255.0, \"Blend\": 0.0 } ], \"FLEUUnknownInt\": 0, \"FLEUEntryName\": \"\" } ] } ], \"UnkwnownData\": \"\" } ] } }"
+        }
+    ]
+}
